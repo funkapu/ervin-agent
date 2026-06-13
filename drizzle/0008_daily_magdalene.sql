@@ -1,0 +1,1 @@
+ALTER TABLE "runs" ALTER COLUMN "account_id" SET NOT NULL;

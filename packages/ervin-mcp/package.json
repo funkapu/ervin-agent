@@ -1,0 +1,16 @@
+{
+  "name": "@tryervin/mcp",
+  "version": "1.0.0",
+  "description": "Ervin MCP server (stdio) — proxies to the hosted Ervin Streamable HTTP endpoint using your ERVIN_API_KEY.",
+  "type": "module",
+  "bin": {
+    "ervin-mcp": "./index.mjs"
+  },
+  "files": ["index.mjs", "README.md"],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
